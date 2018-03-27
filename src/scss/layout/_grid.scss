@@ -1,0 +1,11 @@
+.grid {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 
+        [star] 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr [end];
+    .item {
+        width: 100%;
+        height: 5rem;
+        background-color: salmon;
+    }
+}
